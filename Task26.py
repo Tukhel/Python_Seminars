@@ -7,8 +7,8 @@
 #     A = 2; B = 3 -> 8 
 
 def power (a, b):
-    if b == 1:
-        return a
+    if b == 0:
+        return 1
     else:
         return a * power(a, b - 1)
     
